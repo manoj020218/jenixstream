@@ -1,0 +1,51 @@
+# ── Build outputs ─────────────────────────────────────────────────────────────
+/build/
+app/build/
+
+# ── Gradle cache & wrapper ────────────────────────────────────────────────────
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# ── Local machine config (contains your PC's SDK path — never share) ──────────
+local.properties
+
+# ── Android Studio / IntelliJ IDE files ──────────────────────────────────────
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/runConfigurations.xml
+*.iml
+*.aidl.bak
+
+# ── Keystore & signing files (NEVER commit — keep these offline/backed up) ───
+*.keystore
+*.jks
+*.idsig
+keystore.properties
+release-signing.properties
+
+# ── OS generated files ────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+*~
+
+# ── Claude Code working files ─────────────────────────────────────────────────
+.claude/
+
+# ── Profiling & capture output ────────────────────────────────────────────────
+captures/
+*.hprof
+
+# ── Test results ──────────────────────────────────────────────────────────────
+/test-results/
+/test-output/
+
+# ── Lint reports ──────────────────────────────────────────────────────────────
+lint/
+*.sarif

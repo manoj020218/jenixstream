@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jenix Stream</string>
+    <string name="notification_channel_name">Jenix Stream</string>
+    <string name="notification_channel_desc">Live streaming status and controls</string>
+</resources>

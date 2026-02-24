@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    DEBUG BUILD ONLY — manifest overlay.
+    Exports ScheduleAlarmReceiver so ADB broadcasts can reach it for testing.
+    This file is NOT included in release builds.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application>
+        <!-- Override: make receiver exported so ADB can send test broadcasts -->
+        <receiver
+            android:name=".scheduler.ScheduleAlarmReceiver"
+            android:exported="true"
+            tools:replace="android:exported" />
+    </application>
+
+</manifest>

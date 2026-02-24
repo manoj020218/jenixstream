@@ -1,0 +1,3 @@
+-keep class com.arthenica.ffmpegkit.** { *; }
+-keep class com.jenix.stream.** { *; }
+-keepattributes *Annotation*

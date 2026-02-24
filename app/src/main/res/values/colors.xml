@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_deep">#FF0A0C0F</color>
+    <color name="bg_surface">#FF111418</color>
+    <color name="cyan">#FF00E5FF</color>
+    <color name="green">#FF00FF88</color>
+    <color name="red">#FFFF4455</color>
+</resources>
